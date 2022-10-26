@@ -8,6 +8,5 @@ const Experience = () => {
     </div>
   )
 }
-import './experience.css'
 
 export default Experience
