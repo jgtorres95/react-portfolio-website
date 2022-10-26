@@ -13,6 +13,12 @@ const Header = () => {
        <h5 className="text-light">Full Stack Developer</h5>
        <CallToAction />
        <HeaderSocials />
+     
+
+      <div className="me">
+        <img src={ME} alt="me"/>
+      </div>
+
      </div>
    </header>
   )
