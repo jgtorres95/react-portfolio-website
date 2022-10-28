@@ -33,3 +33,10 @@
   transform: rotate(0);
 }
 
+.about__cards {
+  display: grid;
+  /* Shorthand for 1fr 1fr 1fr */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
