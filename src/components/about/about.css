@@ -5,3 +5,31 @@
   gap: 15%;
 }
 
+.about__me {
+  width: 100%;
+  /* Make the height and width the same */
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  /* Linear gradient with a 45 degree tilt */
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  /* Smoothen hover effect (rotation) */
+  transition: var(--transition);
+}
+
+.about__me-image:hover {
+  transform: rotate(0);
+}
+
