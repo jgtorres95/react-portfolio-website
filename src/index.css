@@ -67,6 +67,7 @@ h1 {
 section {
   /* set margin for components wrapped in a section tag*/
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
