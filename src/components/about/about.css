@@ -1,0 +1,7 @@
+.about__container {
+  display: grid;
+  /* Create two columns. One with 35% width and the otehr with 50% width*/
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
