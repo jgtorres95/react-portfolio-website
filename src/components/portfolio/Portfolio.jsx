@@ -16,7 +16,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="{IMG1}" alt="myFlix" />
+            <img src={IMG1} alt="myFlix" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a href="https://github.com" className="btn" target="_blank">
@@ -32,7 +32,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="{IMG1}" alt="myFlix" />
+            <img src={IMG2} alt="myFlix" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a href="https://github.com" className="btn" target="_blank">
@@ -48,7 +48,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="{IMG1}" alt="myFlix" />
+            <img src={IMG3} alt="myFlix" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a href="https://github.com" className="btn" target="_blank">
@@ -64,7 +64,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="{IMG1}" alt="myFlix" />
+            <img src={IMG4} alt="myFlix" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a href="https://github.com" className="btn" target="_blank">
@@ -80,7 +80,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="{IMG1}" alt="myFlix" />
+            <img src={IMG5} alt="myFlix" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a href="https://github.com" className="btn" target="_blank">
@@ -96,7 +96,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="{IMG1}" alt="myFlix" />
+            <img src={IMG2} alt="myFlix" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a href="https://github.com" className="btn" target="_blank">
