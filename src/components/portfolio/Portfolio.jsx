@@ -10,10 +10,9 @@ import IMG7 from "../../assets/portfolio7.png";
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
-      
+    <section id="portfolio">
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
