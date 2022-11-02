@@ -8,6 +8,58 @@ import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.png";
 import IMG7 from "../../assets/portfolio7.png";
 
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: "myFlix API",
+    github: "https://github.com",
+    demo: "https://google.com",
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: "myFlix-React",
+    github: "https://github.com",
+    demo: "https://google.com",
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: "Meet App",
+    github: "https://github.com",
+    demo: "https://google.com",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Pokedex",
+    github: "https://github.com",
+    demo: "https://google.com",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "ChatMe",
+    github: "https://github.com",
+    demo: "https://google.com",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "myFlix-Angular",
+    github: "https://github.com",
+    demo: "https://google.com",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "To Do List App",
+    github: "https://github.com",
+    demo: "https://google.com",
+  },
+];
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
