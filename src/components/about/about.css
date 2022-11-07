@@ -76,6 +76,48 @@
   color: var(--color-light);
 }
 
+@keyframes color-change {
+  0% {
+    fill: #edc655;
+  }
+  50% {
+    fill: #fcffad;
+  }
+  100% {
+    fill: #f76414;
+  }
+}
+
+.sun {
+  animation: 4s color-change var(--animation-infinite);
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(300px, 50px);
+  }
+}
+
+.cloud__right {
+  animation: 8s cloud-move var(--animation-infinite);
+}
+
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+
+.cloud__left {
+  animation: 8s cloud-move-reverse var(--animation-infinite);
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
   .about__container {
