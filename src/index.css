@@ -21,6 +21,7 @@
 
   /*Create CSS variable for transition*/
   --transition: all 400ms ease;
+  --animation-infinite: infinite alternate linear;
 
   /*Create CSS width variables for media queries*/
   --container-width-lg: 75%;

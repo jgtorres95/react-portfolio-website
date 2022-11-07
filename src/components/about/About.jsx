@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me.jpeg";
 import { BsBriefcaseFill } from "react-icons/bs";
+import City from "../city/City.jsx";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <City />
           </div>
         </div>
 
@@ -38,10 +39,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a at,
-            beatae cupiditate magnam saepe iure architecto laboriosam veniam
-            earum fuga aspernatur inventore cum est totam suscipit eos repellat?
-            Excepturi.
+            My name is Jose and I am a Web Developer from California. In my free
+            time I enjoy watching sports, staying fit, and listening to music.
           </p>
 
           <a href="#contact" className="btn btn-primary">
