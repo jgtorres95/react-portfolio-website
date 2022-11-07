@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me.jpeg";
 import { BsBriefcaseFill } from "react-icons/bs";
+import City from "../city/City.jsx";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <City />
           </div>
         </div>
 
