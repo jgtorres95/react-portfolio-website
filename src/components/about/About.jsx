@@ -39,10 +39,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a at,
-            beatae cupiditate magnam saepe iure architecto laboriosam veniam
-            earum fuga aspernatur inventore cum est totam suscipit eos repellat?
-            Excepturi.
+            My name is Jose and I am a Web Developer from California. In my free
+            time I enjoy watching sports, staying fit, and listening to music.
           </p>
 
           <a href="#contact" className="btn btn-primary">
