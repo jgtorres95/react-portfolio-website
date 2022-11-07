@@ -5,3 +5,9 @@
   gap: 12%;
 }
 
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
