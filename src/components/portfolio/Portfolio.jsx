@@ -23,8 +23,8 @@ const data = [
     title: "myFlix-React",
     description:
       "The client-side of the myFlix application that allows users to access data about their favorites movies, directors, and genres. Users can also register for an account and save movies to their favorites. The application is built using the MERN stack",
-    github: "https://github.com",
-    demo: "https://google.com",
+    github: "https://github.com/jgtorres95/myFlix-React-client",
+    demo: "https://jgtorres95-myflix-react.netlify.app/",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const data = [
     title: "Meet App",
     description:
       "Meet App is a serverless, progressive web application (PWA) built with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events. It uses Google OAuth2 for login, Amazon Lambda functions for hosting, and Enzyme for testing",
-    github: "https://github.com",
+    github: "https://github.com/jgtorres95/meet",
     demo: "https://google.com",
   },
   {
