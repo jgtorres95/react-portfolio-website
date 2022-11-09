@@ -44,9 +44,6 @@ const Footer = () => {
           <FaFacebookSquare />
         </a>
       </div>
-      <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved</small>
-      </div>
     </footer>
   );
 };
