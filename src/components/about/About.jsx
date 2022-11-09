@@ -36,9 +36,9 @@ const About = () => {
             </article>
 
             <article className="about__card">
-              <BsBriefcaseFill className="about__icon" />
+              <FaLaptopCode className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ projects</small>
+              <small>10+ Web Development projects</small>
             </article>
           </div>
 
