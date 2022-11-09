@@ -43,10 +43,10 @@ const About = () => {
           </div>
 
           <p>
-            My name is Jose and I am a Web Developer from California. In my free
-            time I enjoy watching sports, staying fit, and listening to music. I
-            have a passion for solving complex problems using creative and
-            critical thinking skills.
+            My name is Jose and I am a Web Developer from California with a
+            passion for solving complex problems using creative and critical
+            thinking skills. In my free time I enjoy watching sports, staying
+            fit, and listening to music.
           </p>
 
           <a href="#contact" className="btn btn-primary">
