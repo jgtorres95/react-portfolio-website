@@ -1,7 +1,9 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me.jpeg";
 import { BsBriefcaseFill } from "react-icons/bs";
+import { MdSchool } from "react-icons/md";
+import { FaLaptopCode } from "react-icons/fa";
+
 import City from "../city/City.jsx";
 
 const About = () => {
