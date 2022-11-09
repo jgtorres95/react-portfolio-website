@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -34,8 +34,11 @@ const Footer = () => {
         <a href="https://linkedin.com">
           <FaGithub />
         </a>
-        <a href="https://twitter.com">
-          <FaTwitterSquare />
+        <a
+          href="https://www.facebook.com/profile.php?id=100013693839518"
+          target="_blank"
+        >
+          <FaFacebookSquare />
         </a>
       </div>
       <div className="footer__copyright">
