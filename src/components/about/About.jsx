@@ -22,9 +22,11 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <BsBriefcaseFill className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <MdSchool className="about__icon" />
+              <h5>Education</h5>
+              <small>
+                Bachelor's in Mathematics/Full Stack Web Developer Certificate
+              </small>
             </article>
 
             <article className="about__card">
