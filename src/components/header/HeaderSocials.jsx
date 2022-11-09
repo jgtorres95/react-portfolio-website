@@ -5,12 +5,24 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
-    <div className='header__socials'>
-      <a href="https://linkedin.com" target="_blank"><BsLinkedin/></a>
-      <a href="https://github.com" target="_blank"><FaGithub/></a>
-      <a href="https://twitter.com" target="_blank"><FaTwitterSquare /></a>
+    <div className="header__socials">
+      <a
+        href="https://www.linkedin.com/in/jose-torres-64a406119/"
+        target="_blank"
+      >
+        <BsLinkedin />
+      </a>
+      <a href="https://github.com/jgtorres95" target="_blank">
+        <FaGithub />
+      </a>
+      <a
+        href="https://www.facebook.com/profile.php?id=100013693839518"
+        target="_blank"
+      >
+        <FaFacebookSquare />
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default HeaderSocials
+export default HeaderSocials;
