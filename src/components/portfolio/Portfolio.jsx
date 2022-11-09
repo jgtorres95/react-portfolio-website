@@ -33,7 +33,7 @@ const data = [
     description:
       "Meet App is a serverless, progressive web application (PWA) built with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events. It uses Google OAuth2 for login, Amazon Lambda functions for hosting, and Enzyme for testing",
     github: "https://github.com/jgtorres95/meet",
-    demo: "https://google.com",
+    demo: "https://jgtorres95.github.io/meet/",
   },
   {
     id: 4,
@@ -41,8 +41,8 @@ const data = [
     title: "Pokedex",
     description:
       "A small web application built with Javascript, HTML, CSS, jQuery, and Bootstrap that allows users to search through a list of pokemon loaded from the PokeAPI. Users can click on a pokemon's name to display a detailed view of each pokemon",
-    github: "https://github.com",
-    demo: "https://google.com",
+    github: "https://github.com/jgtorres95/pokedex-app",
+    demo: "https://jgtorres95.github.io/pokedex-app/",
   },
   {
     id: 5,
@@ -50,8 +50,8 @@ const data = [
     title: "myFlix-Angular",
     description:
       "A client-side redesign of the myFlix application This application supports the same features as myFlix-React, but is built using Angular and Angular Material",
-    github: "https://github.com",
-    demo: "https://google.com",
+    github: "https://github.com/jgtorres95/myFlix-Angular-app/tree/master",
+    demo: "https://jgtorres95.github.io/myFlix-Angular-app/welcome",
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ const data = [
     title: "To Do List App",
     description:
       "A Simple to-do-list application built using jQuery that allows users to add, delete, rearrange, and mark tasks as complete",
-    github: "https://github.com",
+    github: "https://github.com/jgtorres95/to-do-list-app",
     demo: "https://google.com",
   },
   {
@@ -68,7 +68,7 @@ const data = [
     title: "ChatMe",
     description:
       "A chat application for mobile devices that allows users to chat, share images, and share their location. The application is built using Gifted Chat and React Native Async Strorage. Data for the application is stored using Firestore",
-    github: "https://github.com",
+    github: "https://github.com/jgtorres95/chat-app",
     demo: "https://google.com",
   },
 ];
