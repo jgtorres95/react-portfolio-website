@@ -45,6 +45,10 @@
   margin-bottom: 1rem;
 }
 
+.hidden {
+  display: none;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
   .portfolio__container {

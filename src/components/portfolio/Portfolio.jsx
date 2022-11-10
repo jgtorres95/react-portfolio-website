@@ -16,6 +16,7 @@ const data = [
     description:
       "The backend REST API for the myFlix application. The API was built using Node.js, Mongoose, and Express. It interacts with a Movies and Users collection in MongoDB.",
     github: "https://github.com/jgtorres95/movie_api",
+    demo: null,
   },
   {
     id: 2,
@@ -60,7 +61,7 @@ const data = [
     description:
       "A Simple to-do-list application built using jQuery that allows users to add, delete, rearrange, and mark tasks as complete",
     github: "https://github.com/jgtorres95/to-do-list-app",
-    demo: "https://google.com",
+    demo: null,
   },
   {
     id: 7,
@@ -69,7 +70,7 @@ const data = [
     description:
       "A chat application for mobile devices that allows users to chat, share images, and share their location. The application is built using Gifted Chat and React Native Async Strorage. Data for the application is stored using Firestore",
     github: "https://github.com/jgtorres95/chat-app",
-    demo: "https://google.com",
+    demo: null,
   },
 ];
 
@@ -91,7 +92,11 @@ const Portfolio = () => {
                 <a href={github} className="btn" target="_blank">
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={demo}
+                  className={demo != null ? "btn btn-primary" : "hidden"}
+                  target="_blank"
+                >
                   Live Demo
                 </a>
               </div>
