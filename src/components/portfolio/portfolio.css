@@ -55,12 +55,20 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+  .portfolio__item:last-child {
+    grid-column: 1 / 1;
+    grid-row: 5 / 5;
+  }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
   .portfolio__container {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 2rem;
+  }
+  .portfolio__item:last-child {
+    grid-column: 1 / 1;
+    grid-row: 5 / 5;
   }
 }
